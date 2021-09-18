@@ -19,7 +19,7 @@ const Timeline = ({timeline}) => {
     )
 };
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
 
     return {
         props: {

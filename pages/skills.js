@@ -102,7 +102,7 @@ const Skills = ({skills, types}) => {
     );
 };
 
-export function getServerSideProps() {
+export function getStaticProps() {
     const skillsTypes = skillsArray.map(each=> each['type']).flat().filter((v,i,a)=> a.indexOf(v) === i);
     skillsTypes.unshift('All');
     return {
