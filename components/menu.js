@@ -9,19 +9,19 @@ const color = 'black';
 const menuItems = [
     {
         title: 'About',
-        route: '/about',
+        route: '/mehditeymorian/about',
     },
     {
         title: 'Timeline',
-        route: '/timeline'
+        route: '/mehditeymorian/timeline'
     },
     {
         title: 'Skills',
-        route: '/skills'
+        route: '/mehditeymorian/skills'
     },
     {
         title: 'Projects',
-        route: '/projects'
+        route: '/mehditeymorian/projects'
     }
 ];
 
