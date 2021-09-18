@@ -8,7 +8,6 @@ script:
   - npm run build
   - npm run export
   - touch out/.nojekyll
-  - npm run deploy
 deploy:
   provider: pages
   skip_cleanup: true
