@@ -1,5 +1,6 @@
 module.exports = {
-  assetPrefix: '/mehditeymorian/',
+  // assetPrefix: '/mehditeymorian/',
+  // basePath: '/mehditeymorian',
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback.fs = false;
