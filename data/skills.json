@@ -4,7 +4,7 @@
     "description": "Programming Language",
     "link": "https://www.java.com/en/",
     "type": ["Programming Language","Web Development", "Android Development"],
-    "image": "/icons/skills/java.png",
+    "image": "/static/skills/java.png",
     "level": 0.7
   },
   {
@@ -12,7 +12,7 @@
     "description": "Programming Language",
     "link": "https://golang.org/",
     "type": ["Programming Language", "Web Development"],
-    "image": "/icons/skills/golang.png",
+    "image": "/static/skills/golang.png",
     "level": 0.2
   },
   {
@@ -20,7 +20,7 @@
     "description": "Programming Language",
     "link": "https://www.javascript.com/",
     "type": ["Programming Language", "Web Development"],
-    "image": "/icons/skills/javascript.png",
+    "image": "/static/skills/javascript.png",
     "level": 0.2
   },
   {
@@ -28,7 +28,7 @@
     "description": "Web development",
     "link": "https://reactjs.org/",
     "type": ["Web Development"],
-    "image": "/icons/skills/react.png",
+    "image": "/static/skills/react.png",
     "level": 0.2
   },
   {
@@ -36,7 +36,7 @@
     "description": "Android Development",
     "link": "https://kotlinlang.org/",
     "type": ["Programming Language","Android Development"],
-    "image": "/icons/skills/kotlin.png",
+    "image": "/static/skills/kotlin.png",
     "level": 0.3
   },
   {
@@ -44,7 +44,7 @@
     "description": "Android Development",
     "link": "https://www.android.com/",
     "type": ["Android Development"],
-    "image": "/icons/skills/android.png",
+    "image": "/static/skills/android.png",
     "level": 0.5
   },
   {
@@ -52,7 +52,7 @@
     "description": "Devops",
     "link": "https://git-scm.com/",
     "type": ["Devops"],
-    "image": "/icons/skills/git.png",
+    "image": "/static/skills/git.png",
     "level": 0.5
   },
   {
@@ -60,7 +60,7 @@
     "description": "Database",
     "link": "https://www.mysql.com/",
     "type": ["Database"],
-    "image": "/icons/skills/mysql.png",
+    "image": "/static/skills/mysql.png",
     "level": 0.5
   },
   {
@@ -68,7 +68,7 @@
     "description": "Web Development",
     "link": "https://nodejs.org/en/",
     "type": ["Web Development"],
-    "image": "/icons/skills/nodejs.png",
+    "image": "/static/skills/nodejs.png",
     "level": 0.2
   },
   {
@@ -76,7 +76,7 @@
     "description": "Web Development",
     "link": "https://www.docker.com/",
     "type": ["Devops"],
-    "image": "/icons/skills/docker.png",
+    "image": "/static/skills/docker.png",
     "level": 0.2
   },
   {
@@ -84,7 +84,7 @@
     "description": "Web Development",
     "link": "https://www.gnu.org/software/bash/",
     "type": ["Devops"],
-    "image": "/icons/skills/bash.png",
+    "image": "/static/skills/bash.png",
     "level": 0.2
   },
   {
@@ -92,7 +92,7 @@
     "description": "Web Development",
     "link": "",
     "type": ["Soft Skills"],
-    "image": "/icons/skills/teamwork.png",
+    "image": "/static/skills/teamwork.png",
     "level": 0.8
   },
   {
@@ -100,7 +100,7 @@
     "description": "Web Development",
     "link": "",
     "type": ["Soft Skills"],
-    "image": "/icons/skills/critical-thinking.png",
+    "image": "/static/skills/critical-thinking.png",
     "level": 0.7
   },
   {
@@ -108,7 +108,7 @@
     "description": "Web Development",
     "link": "",
     "type": ["Soft Skills"],
-    "image": "/icons/skills/decision-making.png",
+    "image": "/static/skills/decision-making.png",
     "level": 0.7
   },
   {
@@ -116,7 +116,7 @@
     "description": "Web Development",
     "link": "",
     "type": ["Soft Skills"],
-    "image": "/icons/skills/leadership.png",
+    "image": "/static/skills/leadership.png",
     "level": 0.9
   },
   {
@@ -124,7 +124,7 @@
     "description": "Database",
     "link": "",
     "type": ["Database"],
-    "image": "/icons/skills/mongodb.png",
+    "image": "/static/skills/mongodb.png",
     "level": 0.3
   },
   {
@@ -132,7 +132,7 @@
     "description": "Programming Language",
     "link": "",
     "type": ["Programming Language"],
-    "image": "/icons/skills/matlab.png",
+    "image": "/static/skills/matlab.png",
     "level": 0.3
   }
 ]

@@ -1,4 +1,4 @@
-import {Box, Button, ButtonGroup, Flex, Spacer} from "@chakra-ui/react";
+import {Box, Button, Flex} from "@chakra-ui/react";
 import {Icon} from '@chakra-ui/icon';
 import {FaMapPin} from "react-icons/fa";
 

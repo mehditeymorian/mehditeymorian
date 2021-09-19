@@ -5,7 +5,7 @@
       {
         "title": "Backend Developer @ EBCOM(MCI)",
         "description": "Java and Node.js Developer.",
-        "icon": "/icons/timeline/ebcom.png",
+        "icon": "/static/timeline/ebcom.png",
         "month": "April",
         "tags": [
           {
@@ -33,7 +33,7 @@
       {
         "title": "Teaching Assistant @ Shahid Beheshti University",
         "description": "Advanced Programming(OOP), Dr Aliakbary 2021",
-        "icon": "/icons/timeline/ta.png",
+        "icon": "/static/timeline/ta.png",
         "month": "April",
         "tags": [
           {
@@ -54,7 +54,7 @@
       {
         "title": "Ranked Student @ Yazd University",
         "description": "Ranked among the top 5% of about 14000 students at Yazd university",
-        "icon": "/icons/timeline/ranked-student.png",
+        "icon": "/static/timeline/ranked-student.png",
         "month": "April",
         "tags": []
       }
@@ -66,14 +66,14 @@
       {
         "title": "Ranked Student @ Yazd University",
         "description": "Ranked among the top 5% of about 14000 students at Yazd university",
-        "icon": "/icons/timeline/ranked-student.png",
+        "icon": "/static/timeline/ranked-student.png",
         "month": "April",
         "tags": []
       },
       {
         "title": "Teaching Assistant @ Yazd University",
         "description": "Electric Circuit Course, Dr. Sadr",
-        "icon": "/icons/timeline/ta.png",
+        "icon": "/static/timeline/ta.png",
         "month": "April",
         "tags": [
           {
@@ -89,7 +89,7 @@
       {
         "title": "Teaching Assistant @ Yazd University",
         "description": "Advanced Programming(OOP), Dr. Bidoki",
-        "icon": "/icons/timeline/ta.png",
+        "icon": "/static/timeline/ta.png",
         "month": "April",
         "tags": [
           {
@@ -110,7 +110,7 @@
       {
         "title": "Javacup Certified Java Programmer",
         "description": "",
-        "icon": "/icons/timeline/certificate.png",
+        "icon": "/static/timeline/certificate.png",
         "month": "April",
         "tags": [
           {
@@ -127,7 +127,7 @@
       {
         "title": "Start of Programming",
         "description": "",
-        "icon": "/icons/timeline/start-of-programming.png",
+        "icon": "/static/timeline/start-of-programming.png",
         "month": "April",
         "tags": []
       }
