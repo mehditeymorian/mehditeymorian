@@ -47,7 +47,8 @@ const Menu = (props) => {
                         <Button m={'10px'} colorScheme={'blackAlpha'} variant={'ghost'} color={color}
                                 leftIcon={router.route === menuItem.route ? <Icon as={FaMapPin}/> : undefined}
                                 borderBottom={router.route === menuItem.route ? '1px' : '0px'} borderBottomStyle={'solid'}
-                                borderBottomColor={'black'} borderBottomRadius={'0'}>{menuItem.title}</Button>
+                                borderBottomColor={'black'} borderBottomRadius={'0'}
+                                onClick={onClose}>{menuItem.title}</Button>
                     </Link>
                 )
             )}
