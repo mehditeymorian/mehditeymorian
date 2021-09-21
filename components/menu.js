@@ -1,6 +1,17 @@
-import {Box, Button, Flex} from "@chakra-ui/react";
+import {
+    Box,
+    Button,
+    Flex,
+    Drawer,
+    DrawerOverlay,
+    DrawerBody,
+    DrawerContent,
+    DrawerHeader,
+    useDisclosure,
+    IconButton
+} from "@chakra-ui/react";
 import {Icon} from '@chakra-ui/icon';
-import {FaMapPin} from "react-icons/fa";
+import {FaMapPin, FaHamburger} from "react-icons/fa";
 
 import Link from 'next/link';
 import {useRouter} from "next/router";
@@ -25,25 +36,43 @@ const menuItems = [
     }
 ];
 
-const Menu = () => {
+const Menu = (props) => {
+    const { isOpen, onOpen, onClose } = useDisclosure()
     const router = useRouter();
-    console.log(router.route);
+
+    const menuContent = (
+        <Flex ms={'30px'} me={'30px'} direction={'column'} align={'center'}>
+            {menuItems.map((menuItem) => (
+                    <Link href={menuItem.route}>
+                        <Button m={'10px'} colorScheme={'blackAlpha'} variant={'ghost'} color={color}
+                                leftIcon={router.route === menuItem.route ? <Icon as={FaMapPin}/> : undefined}
+                                borderBottom={router.route === menuItem.route ? '1px' : '0px'} borderBottomStyle={'solid'}
+                                borderBottomColor={'black'} borderBottomRadius={'0'}>{menuItem.title}</Button>
+                    </Link>
+                )
+            )}
+        </Flex>
+    );
 
     return (
-        <Box w={'10vw'} boxShadow={'2xl'}>
-            <Flex ms={'30px'} me={'30px'} direction={'column'} align={'center'}>
-                {menuItems.map((menuItem)=> (
-                        <Link href={menuItem.route}>
-                            <Button m={'10px'} colorScheme={'blackAlpha'} variant={'ghost'} color={color}
-                                    leftIcon={router.route === menuItem.route ? <Icon as={FaMapPin} /> : undefined}
-                                    borderBottom={router.route === menuItem.route ? '1px' : '0px'} borderBottomStyle={'solid'} borderBottomColor={'black'} borderBottomRadius={'0'}>{menuItem.title}</Button>
-                        </Link>
-                )
-                )}
+        <>
+            <Box display={{ base: 'none', md:'block'}} boxShadow={'base'} h={'-webkit-fit-content'}>
+                {menuContent}
+            </Box>
 
-            </Flex>
+            <Button m={12} display={{ base: 'block', md:'none'}} onClick={onOpen} leftIcon={<Icon as={FaHamburger} />}>Menu</Button>
 
-        </Box>
+            <Drawer placement={'bottom'} onClose={onClose} isOpen={isOpen}>
+                <DrawerOverlay />
+                <DrawerContent>
+                    <DrawerHeader borderBottomWidth="1px">Menu</DrawerHeader>
+                    <DrawerBody>
+                        {menuContent}
+                    </DrawerBody>
+                </DrawerContent>
+            </Drawer>
+
+        </>
     )
 };
 

@@ -1,5 +1,5 @@
 import Menu from "components/menu";
-import {Box, Center, HStack} from "@chakra-ui/react";
+import {Box, Center, Flex, HStack, VStack} from "@chakra-ui/react";
 import {AnimatePresence, motion} from "framer-motion";
 import {useRouter} from "next/router";
 
@@ -7,7 +7,8 @@ const Layout = ({children}) => {
     const router = useRouter();
 
     return (
-        <HStack
+        <Box display={{ md: 'flex'}}
+             alignItems={'center'}
             // bgImg={'./bg.jpg'} bgSize={"cover"}
             h={'100vh'}
             >
@@ -24,7 +25,7 @@ const Layout = ({children}) => {
                         {children}
                 </motion.div>
             </AnimatePresence>
-        </HStack>
+        </Box>
     )
 };
 

@@ -5,7 +5,7 @@ const color = 'black';
 
 const About = ({info}) => (
     <HStack position={'relative'} direction={['column','row']} align={'center'}>
-        <Image ml={'15vh'} mt={'5vh'} boxSize={'50vh'} borderRadius={'full'} objectFit={'cover'} bgColor={'#f4c430'}  src={'/about.png'} alt={'picutre of me'}/>
+        <Image ml={'15vh'} mt={'5vh'} boxSize={'50vh'} borderRadius={'full'} objectFit={'cover'} bgColor={'#f4c430'}  src={'/about.webp'} alt={'picutre of me'}/>
         <Flex flexDir={'column'} align={'center'}>
             <Text position={'absolute'} top={'-10vh'} left={'30vh'} fontSize={"6xl"} mt={'100px'} fontWeight={"bold"} w={'-webkit-fit-content'} color={color}>{info.name}</Text>
             <Text position={'absolute'} top={'10vh'} left={'50vh'} fontSize={"2xl"} p={'10px'} w={'-webkit-fit-content'} color={color}>{info.occupation}</Text>
