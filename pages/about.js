@@ -4,15 +4,26 @@ import informationJson from '../data/about.json';
 const color = 'black';
 
 const About = ({info}) => (
-    <HStack position={'relative'} direction={['column','row']} align={'center'}>
-        <Image ml={'15vh'} mt={'5vh'} boxSize={'50vh'} borderRadius={'full'} objectFit={'cover'} bgColor={'#f4c430'}  src={'/about.webp'} alt={'picutre of me'}/>
-        <Flex flexDir={'column'} align={'center'}>
-            <Text position={'absolute'} top={'-10vh'} left={'30vh'} fontSize={"6xl"} mt={'100px'} fontWeight={"bold"} w={'-webkit-fit-content'} color={color}>{info.name}</Text>
-            <Text position={'absolute'} top={'10vh'} left={'50vh'} fontSize={"2xl"} p={'10px'} w={'-webkit-fit-content'} color={color}>{info.occupation}</Text>
-            <Text position={'absolute'} top={'3vh'} left={'90vh'} w={'80vh'} fontSize={"2xl"} color={color} textAlign={"justify"}>{info.about}</Text>
+    <Flex justifyContent={'center'} flexWrap={'wrap'}>
+        <Flex flexGrow={'1'} justify={'center'}>
+        <Image
+            m={{base:'10vw', sm: '5vw'}}
+            sizes={''}
+            boxSize={{ base: '100vw', sm: '90vw' , md:'60vw', lg: '30vw'}}
+            borderRadius={'full'}
+            objectFit={'cover'}
+            bgColor={'#f4c430'}
+            src={'/about.webp'}
+            alt={'picture of me'}/>
         </Flex>
 
-    </HStack>
+        <Flex flexDir={'column'} align={'center'}>
+            <Text p={1}  fontSize={"6xl"} mt={'100px'} fontWeight={"bold"} w={'-webkit-fit-content'} color={color}>{info.name}</Text>
+            <Text p={5}  fontSize={"2xl"} w={'-webkit-fit-content'} color={color}>{info.occupation}</Text>
+            <Text p={5} w={{ base: '100vw', lg:'40vw'}} fontSize={"2xl"} color={color} textAlign={"justify"}>{info.about}</Text>
+        </Flex>
+
+    </Flex>
 );
 
 export async function getStaticProps() {

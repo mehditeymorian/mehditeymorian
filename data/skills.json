@@ -89,7 +89,7 @@
   },
   {
     "name": "Teamwork",
-    "description": "Web Development",
+    "description": "Soft Skill",
     "link": "",
     "type": ["Soft Skills"],
     "image": "/static/skills/teamwork.png",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Critical Thinking",
-    "description": "Web Development",
+    "description": "Soft Skill",
     "link": "",
     "type": ["Soft Skills"],
     "image": "/static/skills/critical-thinking.png",
@@ -105,7 +105,7 @@
   },
   {
     "name": "Decision Making",
-    "description": "Web Development",
+    "description": "Soft Skill",
     "link": "",
     "type": ["Soft Skills"],
     "image": "/static/skills/decision-making.png",
@@ -113,7 +113,7 @@
   },
   {
     "name": "Leadership",
-    "description": "Web Development",
+    "description": "Soft Skill",
     "link": "",
     "type": ["Soft Skills"],
     "image": "/static/skills/leadership.png",
