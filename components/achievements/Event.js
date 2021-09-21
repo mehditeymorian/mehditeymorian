@@ -26,13 +26,12 @@ const Event = ({title, description, icon, tags, year, month, skipTrail}) => {
                 />
                 {!skipTrail && <Box w="1px" flex={1} bg={color} my={1} />}
             </Flex>
-            <Box pt={3} >
-                {/*todo: add the content here*/}
+            <Box pt={3}>
                 <Text fontWeight={'bold'}>{title}</Text>
-                <Text w={'70vh'} align={'justify'}>{description}</Text>
-                <Box mb={'20px'}>
-                {tags.map(tag => <Badge variant={'solid'} colorScheme={tag.color} me={'10px'}>{tag.name}</Badge>)}
-                </Box>
+                <Text align={'justify'} overflowWrap={'break-word'}>{description}</Text>
+                <Flex mb={'20px'} mt={'5px'} flexWrap={'wrap'}>
+                {tags.map(tag => <Badge variant={'solid'} colorScheme={tag.color} mb={'3px'} me={'10px'}>{tag.name}</Badge>)}
+                </Flex>
             </Box>
         </Flex>
     )
