@@ -5,5 +5,5 @@
 - 👯 I’m looking to collaborate on any open-source project
 - 💬 Ask me about Kubernetes, Message Broker, WebRTC, Golang, Backend Development
 - 📫 How to reach me: my email is in my profile😄
-- ⚡ Fun fact: i don't like being a programmer
+- ⚡ Fun fact: I don't like to be a programmer forever... 🤔
 
