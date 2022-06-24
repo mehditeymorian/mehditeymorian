@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on WebRTC
+- 🔭 I’m currently working on QUIC
 - 🌱 I’m currently learning Kubernetes
 - 👯 I’m looking to collaborate on any open-source project
 - 💬 Ask me about Kubernetes, Message Broker, WebRTC, Golang, Backend Development
