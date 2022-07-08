@@ -18,11 +18,7 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 # I like
 
 - Running
-- Skiing
-- Sailing and the sea
 - Space
-- Summer
-- Fashion
 - Photography
 - Hiking
 - Travel
