@@ -39,7 +39,8 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 
 # Websites from people I admire
 
-- [Parham Alvani](https://github.com/1995parham)
+- [Parham Alvani](https://1995parham.me/)
+- [Steve Francia](https://spf13.com/)
 
 
 If we are friends and you feel like you belong on this list, you're probably right. I'm sorry I forgot about you. Pester me and I'll add you.
