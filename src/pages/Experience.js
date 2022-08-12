@@ -11,22 +11,20 @@ import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
 
 const sections = [
-  'Education',
   'Experience',
   'Skills',
-  'Courses',
   'References',
 ];
 
-const Resume = () => (
+const ExperienceComponent = () => (
   <Main
-    title="Resume"
-    description="Mehdi Teymorian's Resume. Software Engineer at Snapp"
+    title="Experience"
+    description="Mehdi Teymorian's Experience. Software Engineer at Snapp"
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading"><Link to="experience">Experience</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
@@ -44,4 +42,4 @@ const Resume = () => (
   </Main>
 );
 
-export default Resume;
+export default ExperienceComponent;
