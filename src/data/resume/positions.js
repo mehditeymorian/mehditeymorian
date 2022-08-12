@@ -11,16 +11,6 @@ const positions = [
     ],
   },
   {
-    company: 'Shahid Beheshti University',
-    position: 'Teaching Assistant',
-    link: 'https://en.sbu.ac.ir',
-    daterange: 'February 2021 - Present',
-    points: [
-      'TA of Advanced Programming Lecture',
-      'TA of Compiler Lecture',
-    ],
-  },
-  {
     company: 'EBCOM',
     position: 'Backend Developer',
     link: 'https://ebcom.ir/',
@@ -38,16 +28,6 @@ const positions = [
     daterange: 'January 2018 - April 2021',
     points: [
       'Pursuing my passion in programming as an Android developer',
-    ],
-  },
-  {
-    company: 'Yazd University',
-    position: 'Teaching Assistant',
-    link: 'https://yazd.ac.ir/en',
-    daterange: 'February 2020 – July 2020',
-    points: [
-      'TA of Advanced Programming Lecture',
-      'TA of Electric Circuit Lecture',
     ],
   },
 ];
