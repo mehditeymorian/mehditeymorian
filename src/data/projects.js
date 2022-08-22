@@ -6,6 +6,7 @@ const data = [
     image: '',
     date: '2022',
     desc: 'Implementation of Server Sent Events by QUIC. A faster replacement for traditional SSE over HTTP/2.',
+    tags: ['QUIC', 'Go', 'SSE'],
   },
   {
     title: 'WebRTC Video Call',
@@ -14,6 +15,7 @@ const data = [
     image: '',
     date: '2022',
     desc: 'This project is a video calling application using WebRTC technology. It contains minimum requirements to provide a group video call. WebRTC is a free and open-source project providing web browsers and mobile applications with real-time communication via application programming interfaces.',
+    tags: ['JS', 'Go', 'WebRTC'],
   },
   {
     title: 'Etefagh',
@@ -22,6 +24,7 @@ const data = [
     image: '',
     date: '2021',
     desc: 'Publishes events to Nats Streaming(STAN) synchornously and asynchronously. Cache events\'s publish-state using Redis and Store events using MongoDB.',
+    tags: ['Go', 'Nats.io', 'Redis', 'MongoDB'],
   },
   {
     title: 'Twitter Frontend',
@@ -30,6 +33,7 @@ const data = [
     image: '',
     date: '2020',
     desc: 'This is a Twitter-like social media with pretty much everything Twitter has and more',
+    tags: ['React', 'JS'],
   },
   {
     title: 'Cool Compiler',
@@ -38,6 +42,7 @@ const data = [
     image: '',
     date: '2021',
     desc: 'I wrote this project for Compiler course at Shahid Beheshti University Summer 2021. Java, PGen, ANTLR are the tools that I\'ve leveraged to do this project.',
+    tags: ['Java', 'Assembly'],
   },
   {
     title: 'Othello Game',
@@ -46,6 +51,7 @@ const data = [
     image: '',
     date: '2020',
     desc: 'Implementation of Othello game with model training using evolutionary alogrithms. This project consists of three section, game logic, Minimax tree for AI model and training using evolutionary algorithms.',
+    tags: ['Kotlin'],
   },
   {
     title: 'HTTP Client Library',
@@ -54,6 +60,7 @@ const data = [
     image: '',
     date: '2020',
     desc: 'Simple Http Client written for Internet Engineering Lecture.',
+    tags: ['Java', 'HTTP'],
   },
   {
     title: 'Smart Task',
@@ -62,6 +69,7 @@ const data = [
     image: '',
     date: '2019',
     desc: 'Todo list application with ability to categorized tasks. each task consist of a title, description, deadline, priority and etc. it support persian and english language. and also compatible with darker theme.',
+    tags: ['Android'],
   },
   {
     title: 'Microcontroller Based Oscillator',
@@ -70,6 +78,7 @@ const data = [
     image: '',
     date: '2021',
     desc: 'A Microcontroller based Oscillator that produces a periodic, oscillating electronic signal, often a sine wave or a square wave. I used Stm32f microcontroller to complete this project. You can generate up to 8 different types of waves. Also Wave period and frequency are adjustable.',
+    tags: ['C'],
   },
 ];
 
