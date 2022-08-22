@@ -5,8 +5,7 @@ const ta = [
     link: 'https://aut.ac.ir/en',
     daterange: 'February 2022 - July 2022',
     points: [
-      'Advanced Programming Lecture, Dr. Zare Bidoki, Spring 2020',
-      'Electric Circuit Lecture, Dr. Sadr, Spring 2020',
+      'Internet Engineering, Dr Parham Alvani, Spring 2022',
     ],
   },
   {
