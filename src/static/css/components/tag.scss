@@ -1,0 +1,15 @@
+
+  .tag{
+    padding: 4px;
+    padding-inline: 10px;
+    margin-inline-end: 4px;
+    background-color: #f4f4f4;
+    color: #3c3b3b;
+    border-radius: 10px;
+    font-family: _font(family-heading);
+    font-size: 0.6em;
+  }
+
+  .tag-box{
+    margin: 0 0 (_size(element-margin) * 0.25) 0;
+  }
