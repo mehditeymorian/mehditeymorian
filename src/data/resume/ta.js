@@ -1,7 +1,7 @@
 const ta = [
   {
     company: 'Amirkabir University',
-    position: 'Teaching Assistant',
+    position: '',
     link: 'https://aut.ac.ir/en',
     daterange: 'February 2022 - July 2022',
     points: [
@@ -10,7 +10,7 @@ const ta = [
   },
   {
     company: 'Shahid Beheshti University',
-    position: 'Teaching Assistant',
+    position: '',
     link: 'https://en.sbu.ac.ir',
     daterange: 'February 2021 - July 2022',
     points: [
@@ -21,7 +21,7 @@ const ta = [
   },
   {
     company: 'Yazd University',
-    position: 'Teaching Assistant',
+    position: '',
     link: 'https://yazd.ac.ir/en',
     daterange: 'February 2020 – July 2020',
     points: [
