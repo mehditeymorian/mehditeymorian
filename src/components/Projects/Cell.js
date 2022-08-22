@@ -8,6 +8,7 @@ const Cell = ({ data }) => (
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
+        <div className="tag-box">{data.tags.map((tag) => <span className="tag">{tag}</span>)}</div>
       </header>
       <a href={data.link} className={data.image.length === 0 ? 'image-hidden' : 'image'}>
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
@@ -29,6 +30,8 @@ Cell.propTypes = {
     image: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
+    // eslint-disable-next-line react/forbid-prop-types
+    tags: PropTypes.array.isRequired,
   }).isRequired,
 };
 
