@@ -51,7 +51,7 @@ const data = [
     image: '',
     date: '2020',
     desc: 'Implementation of Othello game with model training using evolutionary alogrithms. This project consists of three section, game logic, Minimax tree for AI model and training using evolutionary algorithms.',
-    tags: ['Kotlin'],
+    tags: ['Kotlin', 'Genetic Algorithms', 'Evolutionary Algorithms'],
   },
   {
     title: 'HTTP Client Library',
@@ -69,7 +69,7 @@ const data = [
     image: '',
     date: '2019',
     desc: 'Todo list application with ability to categorized tasks. each task consist of a title, description, deadline, priority and etc. it support persian and english language. and also compatible with darker theme.',
-    tags: ['Android'],
+    tags: ['Android', 'Java', 'Jetpack'],
   },
   {
     title: 'Microcontroller Based Oscillator',
@@ -78,7 +78,7 @@ const data = [
     image: '',
     date: '2021',
     desc: 'A Microcontroller based Oscillator that produces a periodic, oscillating electronic signal, often a sine wave or a square wave. I used Stm32f microcontroller to complete this project. You can generate up to 8 different types of waves. Also Wave period and frequency are adjustable.',
-    tags: ['C'],
+    tags: ['C', 'Signal Processing', 'STM32F', 'ARM'],
   },
 ];
 
