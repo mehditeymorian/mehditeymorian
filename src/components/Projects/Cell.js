@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
+import TagGroup from '../general/TagGroup';
 
 const Cell = ({ data }) => (
   <div className="cell-container">
@@ -8,7 +9,7 @@ const Cell = ({ data }) => (
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
         <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
-        <div className="tag-box">{data.tags.map((tag) => <span className="tag">{tag}</span>)}</div>
+        <TagGroup data={data.tags} />
       </header>
       <a href={data.link} className={data.image.length === 0 ? 'image-hidden' : 'image'}>
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
