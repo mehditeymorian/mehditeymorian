@@ -19,7 +19,7 @@ const Cell = ({ data }) => (
           <a className="link-to-project" href={data.link}> Link to Project </a>
         </p>
       </div>
-      <ImageGallery data={data.images} />
+      {data.images.length === 0 ? null : <ImageGallery data={data.images} />}
     </article>
   </div>
 );
