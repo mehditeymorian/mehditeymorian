@@ -32,6 +32,7 @@ Image.propTypes = {
 
 const ImageGallery = ({ data }) => (
   <div className="gallery">
+    {/* eslint-disable-next-line react/no-array-index-key */}
     {data.map((each, index) => <Image data={each} key={index} />)}
   </div>
 );
