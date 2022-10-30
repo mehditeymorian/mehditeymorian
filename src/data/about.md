@@ -6,13 +6,17 @@ I am a Software Engineer at [Snapp](https://www.snapp.ir). Also, I am student of
 # What I Do
 
 At work, I am responsible for creating, designing, and maintaining microservices in an `event-driven system`, providing online taxi services for more than 40M+ users. In addition, I `research` new technologies to improve current `microservices`' maintainability and performance.
-
+\
+\
 On the other hand, I'm interested in Machine Learning and Data Science, which have been visible throughout my undergraduate duration.
-
+\
+\
 I did my AI lecture project on developing an intelligent agent to play the Othello game with a heuristic fitness function tuned by `genetic algorithms`. Doing so made me intrigued about learning new concepts such as Reinforcement Learning and `Deep Learning`. As a result, I am continuing what I have started and doing my undergraduate project on developing an agent for the Othello game using `Deep Reinforcement Learning`.
-
+\
+\
 Through other lectures, I have done some data science work too. In the Information Retrieval lecture, I created a `tag recommender` that suggests the most related tags to the input tag based on questions in Stackoverflow. Or in the Computer Simulations lecture, I analyzed the behavior and characteristics of a graph representing relationships in social media, which falls under the category of `complex networks`.
-
+\
+\
 To summarize, I love developing software systems and research in AI fields, including reinforcement learning, deep learning, and data science.
 
 
