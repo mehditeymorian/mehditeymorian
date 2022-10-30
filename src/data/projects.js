@@ -1,5 +1,21 @@
 const data = [
   {
+    title: 'Tag Recommendation System for Stackoverflow Questions',
+    subtitle: 'Suggests the top N tags with the highest similarity to the given tag',
+    link: 'https://github.com/mehditeymorian/JNotes/tree/main/stackoverflow',
+    date: '2022',
+    desc: 'A matrix of tags is created and filled by Confidence(Tag1, Tag2). Confidence is a type of association rule for calculating closeness of items in a dataset. Confidence is the percentage of all transactions satisfying X that also satisfy Y.',
+    tags: ['Pandas'],
+  },
+  {
+    title: 'Complex Network Analysis',
+    subtitle: 'Analyzing a complex graph, which represents interaction between a group of people, using node fitness and connection count',
+    link: 'https://github.com/mehditeymorian/JNotes/tree/main/complex-network/characteristics-analysis',
+    date: '2022',
+    desc: 'Analyzing random graph characteristics including average node degree, degree count, and degree change during cycles after applying an initial fitness to each node. These graphs represent an abstract overview of relationships in social media applications like facebook, instagram, and etc.',
+    tags: ['NetworkX'],
+  },
+  {
     title: 'QSSE',
     subtitle: 'SSE Over QUIC Protocol in Go',
     link: 'https://github.com/snapp-incubator/qsse',
