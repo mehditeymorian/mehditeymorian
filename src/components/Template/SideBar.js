@@ -20,9 +20,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Mehdi. I like programming and computer stuff.
-        I am a <a href="https://en.sbu.ac.ir/">Shahid Beheshti</a> Bachelor, CE Alumni, and
-        the Software Engineer at <a href="https://snapp.ir/">Snapp</a>.
+      <p>Hi, I&apos;m Mehdi and I am CE alumni at <a href="httpsL//yazd.ac.ir/en">Yazd University</a> and a software engineer at <a href="https://snapp.ir/">Snapp</a>. Coding and learning about new things are my hobbies.
       </p>
       <ul className="actions">
         <li>
