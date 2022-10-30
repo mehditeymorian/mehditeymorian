@@ -1,16 +1,16 @@
 const ta = [
   {
     company: 'Amirkabir University',
-    position: '',
+    position: 'Teaching Assistant',
     link: 'https://aut.ac.ir/en',
     daterange: 'February 2022 - July 2022',
     points: [
-      'Internet Engineering, Dr Parham Alvani, Spring 2022',
+      'Internet Engineering, Dr. Parham Alvani, Spring 2022',
     ],
   },
   {
     company: 'Shahid Beheshti University',
-    position: '',
+    position: 'Teaching Assistant',
     link: 'https://en.sbu.ac.ir',
     daterange: 'February 2021 - July 2022',
     points: [
@@ -21,7 +21,7 @@ const ta = [
   },
   {
     company: 'Yazd University',
-    position: '',
+    position: 'Teaching Assistant',
     link: 'https://yazd.ac.ir/en',
     daterange: 'February 2020 – July 2020',
     points: [

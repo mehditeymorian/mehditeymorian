@@ -36,7 +36,7 @@ const Educations = () => (
         </div>
       </header>
       <Education data={degrees} />
-      <Experience data={ta} title="Teaching Assistant" />
+      <Experience data={ta} title="Academic Experience" />
       <Courses data={courses} />
       <References />
 

@@ -5,7 +5,8 @@ const Degree = ({ data }) => (
   <article className="degree-container">
     <header>
       <h4 className="degree">{data.degree}</h4>
-      <p className="school"><a href={data.link}>{data.school}</a>, {data.year}</p>
+      <p className="school"><a href={data.link}>{data.school}</a>, {data.year[0]} - {data.year[1]}</p>
+      <p>{data.description}</p>
     </header>
   </article>
 );
@@ -16,6 +17,7 @@ Degree.propTypes = {
     link: PropTypes.string.isRequired,
     school: PropTypes.string.isRequired,
     year: PropTypes.number.isRequired,
+    description: PropTypes.string,
   }).isRequired,
 };
 
