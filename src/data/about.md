@@ -5,7 +5,7 @@ I am a Software Engineer at [Snapp](https://www.snapp.ir). Also, I am student of
 
 # What I Do
 
-At work, I am responsible for creating, designing, and maintaining microservices in an `event-driven system`, providing online taxi services for more than 40M+ users. In addition, I `research` new technologies to improve current `microservices`' maintainability and performance.
+At work, I am responsible for developing, designing, and maintaining microservices in an `event-driven` system, providing online taxi services for more than 40M users. In addition, I `research` new technologies to improve current `microservices`' maintainability and performance.
 \
 \
 On the other hand, I'm interested in Machine Learning and Data Science, which have been visible throughout my undergraduate duration.

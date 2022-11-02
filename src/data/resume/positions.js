@@ -5,8 +5,8 @@ const positions = [
     link: 'https://snapp.ir/',
     daterange: 'October 2021 - Present',
     points: [
-      'Creating and maintaining Cloud Native Application in an event driven system',
-      'Doing different Cloud operations on Cloud Platforms',
+      'Developing, designing, and maintaining cloud native applications in an event driven system',
+      'Research new technologies to improve current microservices\' maintainability and performance',
       'Proudly member of Dispatching team',
     ],
   },
@@ -14,7 +14,7 @@ const positions = [
     company: 'EBCOM',
     position: 'Backend Developer',
     link: 'https://ebcom.ir/',
-    daterange: 'APril 2021 - September 2021',
+    daterange: 'April 2021 - September 2021',
     points: [
       'Developing microservices using Java and Node.js',
       'Maintaining old microservices',
