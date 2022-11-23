@@ -180,16 +180,6 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Android',
-    competency: 5,
-    category: ['Android'],
-  },
-  {
-    title: 'JetPack',
-    competency: 5,
-    category: ['Android'],
-  },
-  {
     title: 'Redux',
     competency: 5,
     category: ['Web Development'],
