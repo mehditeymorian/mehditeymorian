@@ -24,13 +24,13 @@ const sections = [
 
 const CV = () => (
   <Main
-    title="Education"
-    description="Mehdi Teymorian's Education. Computer Engineering Undergraduate"
+    title="CV"
+    description="Mehdi Teymorian's CV. Computer Engineering Undergraduate"
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="education">Education</Link></h2>
+          <h2 data-testid="heading"><Link to="cv">Curriculum Vitae</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
