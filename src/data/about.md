@@ -24,7 +24,6 @@ To summarize, I love developing software systems and research in AI fields, incl
 
 - I studied Mathematics in high school. (I love math and physics so much!)
 - At age 16, I started programming with Java.
-- I like a future where robots and humans co-exist and galaxy exploration is a common thing.
 - I explored many topics like Android, AI, Web Development, Microcontroller, Backend Development to find my interests.
 
 Ask me in person for other stories that I'm afraid to share with the internet.
@@ -48,6 +47,7 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - being inspiration for younger people.
 - going to space.
 - doing better.
+- a future where robots and humans co-exist and galaxy exploration is a common thing.
 - a world without merge conflicts.
 
 # Websites from people I admire
