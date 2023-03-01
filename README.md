@@ -1,4 +1,5 @@
 ### Hi there 👋
+Here is a list of projects I have done in the past years.
 
 ## Open-Source Projects
 - [JWT CLI Encoder & Decoder](https://github.com/mehditeymorian/jwt)
