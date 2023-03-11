@@ -2,6 +2,7 @@
 Here is a list of projects I have done in the past years.
 
 ## Open-Source Projects
+- [QSSE, Server Sent Events over QUIC protocol](https://github.com/snapp-incubator/qsse)
 - [JWT CLI Encoder & Decoder](https://github.com/mehditeymorian/jwt)
 - [Docker Bake + Gitlab CI](https://github.com/mehditeymorian/bake-matrix)
 - [Othello Game](https://github.com/mehditeymorian/Othello-Game)
