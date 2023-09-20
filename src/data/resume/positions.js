@@ -5,9 +5,9 @@ const positions = [
     link: 'https://snapp.ir/',
     daterange: 'October 2021 - Present',
     points: [
-      'Developing, designing, and maintaining cloud native applications in an event driven system',
-      'Research new technologies to improve current microservices\' maintainability and performance',
-      'Proudly member of Dispatching team',
+      'Maintained stability of exchanging events with more than 270k concurrent clients using MQTT protocol in a mission-critical infrastructure team.',
+      'Created Snappline, a new sub-application of the Snapp super app for static daily rides, and managed the tech team to scale the user base to more than 2M users.',
+      'Developed and contributed to in-app messaging and audio calling services for more than 50M users.',
     ],
   },
   {

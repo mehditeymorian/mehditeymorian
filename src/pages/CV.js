@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
-import Courses from '../components/Resume/Courses';
+// import Courses from '../components/Resume/Courses';
 import References from '../components/Resume/References';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 
-import courses from '../data/resume/courses';
+// import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import ta from '../data/resume/ta';
 import positions from '../data/resume/positions';
@@ -44,7 +44,7 @@ const CV = () => (
       <Experience data={positions} title="Working Experience" />
       <Experience data={ta} title="Academic Experience" />
       <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
+      {/* <Courses data={courses} /> */}
       <References />
 
     </article>
