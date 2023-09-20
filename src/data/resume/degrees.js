@@ -1,14 +1,14 @@
 const degrees = [
   {
     school: 'Yazd University',
-    degree: 'B.e. Computer Engineering',
+    degree: 'B.Sc. Computer Engineering',
     link: 'https://yazd.ac.ir/en',
     year: [2018, 2023],
-    description: 'Thesis: Intelligent Othello game agent trained by deep reinforcement learning',
+    description: 'B.Sc. Project: Evaluation of Double DQN method in the Othello game',
   },
   {
     school: 'Shahid Beheshti University',
-    degree: 'B.e. Computer Engineering',
+    degree: 'B.Sc. Computer Engineering',
     link: 'https://en.sbu.ac.ir',
     year: [2020, 2022],
     description: 'Guest Student',
