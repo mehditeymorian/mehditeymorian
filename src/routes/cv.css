@@ -1,0 +1,16 @@
+#cv-page { min-height: 70vh; padding-top: 40px; }
+.cv__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 34px; flex-wrap: wrap; }
+.cv__name { font-size: clamp(28px, 6vw, 40px); color: var(--text); }
+.cv__title { font-size: 12px; letter-spacing: 1px; color: var(--accent); margin-top: 6px; }
+.cv__download { font-size: 12px; color: var(--mint); border: 0.5px solid var(--line); border-radius: 6px; padding: 9px 14px; }
+.cv__download:hover { border-color: var(--accent); color: var(--accent); }
+.cv__h2 { font-size: 13px; letter-spacing: 2px; color: var(--accent); text-transform: uppercase; margin: 34px 0 16px; }
+.cv__stack-group { display: grid; grid-template-columns: 120px 1fr; gap: 14px; padding: 10px 0; border-top: 0.5px solid var(--line-soft); }
+.cv__stack-label { font-size: 11px; color: var(--muted); }
+.cv__stack-items { display: flex; gap: 6px; flex-wrap: wrap; }
+@media (max-width: 480px) { .cv__stack-group { grid-template-columns: 1fr; gap: 6px; } }
+.cv__open { display: inline-block; margin-top: 10px; font-size: 11px; letter-spacing: 1px; color: var(--accent); }
+.cv__edu-row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 10px 0; border-top: 0.5px solid var(--line-soft); flex-wrap: wrap; }
+.cv__edu-school { color: var(--text); font-size: 14px; }
+.cv__edu-degree { color: var(--muted-2); font-size: 12px; margin-top: 2px; }
+.cv__edu-period { font-size: 11px; color: var(--muted); }

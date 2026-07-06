@@ -1,0 +1,4 @@
+#work-page { min-height: 70vh; padding-top: 40px; }
+.work__filter { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
+.work__filter .chip { cursor: pointer; background: transparent; }
+.work__filter .chip:hover { border-color: var(--accent); }

@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "name": "Mehdi Teymorian",
+    "initials": "MT",
+    "title": "Software Engineer · Distributed Systems",
+    "focus": "distributed systems",
+    "tools": "Go · k8s · Msg Brokers",
+    "based": "Iran",
+    "status": "on the move",
+    "tagline": "An engineer who reads the terrain — of systems, and of mountains.",
+    "openToWork": true
+  },
+  "about": {
+    "prose": [
+      "I build the quiet machinery behind software at scale — real-time messaging, event pipelines, and the brokers that keep them honest. I like systems that stay calm when everything is on fire."
+    ],
+    "personal": "Off the clock I'm usually moving — running, a trail, a camera — carrying the same love of math and old questions up the mountain."
+  },
+  "projects": [
+    { "slug": "euler", "name": "Euler", "blurb": "A Euler graph generator for Go struct models.", "tags": ["Go"], "url": "https://github.com/mehditeymorian/euler", "featured": true },
+    { "slug": "etefagh", "name": "Etefagh", "blurb": "An event pub/sub service over NATS Streaming, with Redis-cached publish state and MongoDB storage.", "tags": ["Go", "NATS"], "url": "https://github.com/mehditeymorian/Etefagh", "featured": true },
+    { "slug": "koi", "name": "KOI", "blurb": "A lightweight worker manager for orchestrating concurrent jobs in Go.", "tags": ["Go", "Concurrency"], "url": "https://github.com/mehditeymorian/koi", "featured": true },
+    { "slug": "othello-ddqn", "name": "Othello · Double DQN", "blurb": "A reinforcement-learning agent for Othello, benchmarked against earlier Minimax work.", "tags": ["Python", "PyTorch"], "url": "https://github.com/mehditeymorian/othello-intelligent-agent", "featured": true },
+    { "slug": "worksync", "name": "WorkSync", "blurb": "Synchronised scheduling across distributed workers, backed by MySQL.", "tags": ["Go", "Distributed"], "url": "https://github.com/mehditeymorian/worksync", "featured": false },
+    { "slug": "ratelimit", "name": "RateLimit", "blurb": "A sliding-window rate limiter implemented on Redis.", "tags": ["Go", "Redis"], "url": "https://github.com/mehditeymorian/ratelimit", "featured": false },
+    { "slug": "webrtc-video-call", "name": "WebRTC Video Call", "blurb": "Group video calling over WebRTC with a minimal signalling backend.", "tags": ["Go", "WebRTC"], "url": "https://github.com/mehditeymorian/webrtc-video-call", "featured": false },
+    { "slug": "othello-game", "name": "Othello · Genetic", "blurb": "Othello with an agent trained by evolutionary algorithms.", "tags": ["Kotlin", "Genetic Algorithms"], "url": "https://github.com/mehditeymorian/Othello-Game", "featured": false },
+    { "slug": "jnotes", "name": "JNotes", "blurb": "A collection of machine-learning and data-science notebooks.", "tags": ["Python", "Jupyter"], "url": "https://github.com/mehditeymorian/JNotes", "featured": false },
+    { "slug": "jwt", "name": "JWT CLI", "blurb": "A command-line encoder and decoder for JSON Web Tokens.", "tags": ["Go", "JWT"], "url": "https://github.com/mehditeymorian/jwt", "featured": false },
+    { "slug": "bake-matrix", "name": "Docker Bake + CI", "blurb": "A matrix build setup combining Docker Bake with GitLab CI.", "tags": ["Docker", "Gitlab CI"], "url": "https://github.com/mehditeymorian/bake-matrix", "featured": false }
+  ],
+  "stack": [
+    { "label": "backend", "items": ["Go", "Microservices", "Python"] },
+    { "label": "messaging", "items": ["EMQX", "NATS", "RabbitMQ"] },
+    { "label": "infra", "items": ["Kubernetes", "Docker", "Grafana", "Prometheus"] },
+    { "label": "data", "items": ["Redis", "Postgres", "Mysql"] }
+  ],
+  "trajectory": [
+    { "title": "Software Engineer", "period": "2021 — now", "note": "Real-time messaging and infrastructure at large scale.", "current": true },
+    { "title": "Backend Developer", "period": "2021", "note": "Ecommerce microservices across multiple vendors." },
+    { "title": "Mobile Developer", "period": "2018 — 2021", "note": "Independent consumer apps — where the habit turned professional." }
+  ],
+  "education": [
+    { "school":  "Shahid Beheshti University", "degree": "m.Sc. Software - Cloud Computing", "period": "2023 - 2026"},
+    { "school": "Shahid Beheshti University", "degree": "B.Sc. Computer Engineering", "period": "2018 — 2023" }
+  ],
+  "socials": [
+    { "label": "github", "href": "https://github.com/mehditeymorian", "icon": "github" },
+    { "label": "linkedin", "href": "https://www.linkedin.com/in/mehdi-teymorian", "icon": "linkedin" },
+    { "label": "medium", "href": "https://teymorian.medium.com", "icon": "medium" },
+    { "label": "email", "href": "mailto:mehditeymorian322@gmail.com", "icon": "mail" }
+  ],
+  "cvPdf": null
+}

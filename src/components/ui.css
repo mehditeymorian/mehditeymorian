@@ -1,0 +1,15 @@
+.slabel { display: flex; align-items: center; gap: 12px; font-size: 11px; letter-spacing: 2px; color: var(--accent); margin-bottom: 18px; text-transform: uppercase; }
+.slabel__idx { color: var(--accent); }
+.slabel__title { color: var(--accent); }
+.slabel__note { color: var(--muted); }
+.card { background: var(--card); border: 0.5px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
+.chip { display: inline-block; font-size: 11px; color: var(--mint); border: 0.5px solid var(--line); border-radius: 6px; padding: 5px 10px; }
+.chip.is-active { background: var(--accent); color: var(--bg-deep); border-color: var(--accent); }
+.timeline { display: flex; flex-direction: column; }
+.timeline__row { display: grid; grid-template-columns: 110px 1fr; gap: 18px; padding: 0 0 18px 20px; border-left: 0.5px solid var(--line); position: relative; }
+.timeline__row.is-current { border-left-color: var(--accent); }
+.timeline__dot { position: absolute; left: -4px; top: 4px; width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+.timeline__row.is-current .timeline__dot { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+.timeline__period { font-size: 11px; color: var(--muted); }
+.timeline__title { color: var(--text); font-size: 14px; }
+.timeline__note { margin: 4px 0 0; font-size: 12px; color: var(--muted-2); line-height: 1.6; }
