@@ -1,10 +1,10 @@
 ## Mehdi Teymorian
 
-**Software Engineer · Distributed Systems**
+**Senior Software Engineer · Backend & Distributed Systems**
 
-> I build the quiet machinery behind software at scale — real-time messaging,
-> event pipelines, and the message brokers that keep them honest. I like systems
-> that stay calm when everything is on fire.
+> I build backend systems in Go — event pipelines, distributed services, and the
+> brokers and data stores underneath them. I care most about data correctness and
+> systems that stay calm when everything is on fire.
 
 Off the clock I'm usually moving — running, a trail, a camera — carrying the same
 love of math and the night sky up the mountain.
@@ -15,7 +15,7 @@ love of math and the night sky up the mountain.
 
 ### Working with
 
-`Go` · `Microservices` · `Python` · `Kubernetes` · `Docker` · `NATS` · `RabbitMQ` · `EMQX` · `Redis` · `PostgreSQL` · `Prometheus` · `Grafana`
+`Go` · `SQL` · `Python` · `Kafka` · `NATS` · `RabbitMQ` · `EMQX` · `PostgreSQL` · `Redis` · `MySQL` · `ClickHouse` · `Kubernetes` · `Helm` · `Docker` · `GitLab CI/CD` · `OpenTelemetry` · `Prometheus` · `Grafana`
 
 ### Selected open source
 
@@ -23,11 +23,11 @@ love of math and the night sky up the mountain.
 - **[Etefagh](https://github.com/mehditeymorian/Etefagh)** — event pub/sub over NATS Streaming
 - **[koi](https://github.com/mehditeymorian/koi)** — a goroutine & worker manager
 - **[worksync](https://github.com/mehditeymorian/worksync)** — synchronised scheduling across distributed workers
-- **[ratelimit](https://github.com/mehditeymorian/ratelimit)** — a sliding-window rate limiter on Redis
+- **[ratelimit](https://github.com/mehditeymorian/ratelimit)** — a distributed sliding-window rate limiter on Redis, atomic via Lua
 
 ### Studied
 
-Shahid Beheshti University — M.Sc. Software Engineering (Cloud Computing) & B.Sc. Computer Engineering
+Shahid Beheshti University — M.Sc. Software Engineering & B.Sc. Computer Engineering
 
 ---
 

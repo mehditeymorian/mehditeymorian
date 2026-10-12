@@ -2,9 +2,9 @@
   "profile": {
     "name": "Mehdi Teymorian",
     "initials": "MT",
-    "title": "Software Engineer · Distributed Systems",
-    "focus": "distributed systems",
-    "tools": "Go · k8s · Msg Brokers",
+    "title": "Senior Software Engineer · Backend & Distributed Systems",
+    "focus": "backend & distributed systems",
+    "tools": "Go · Kafka · Kubernetes",
     "based": "Iran",
     "status": "on the move",
     "tagline": "An engineer who reads the terrain — of systems, and of mountains.",
@@ -12,17 +12,17 @@
   },
   "about": {
     "prose": [
-      "I build the quiet machinery behind software at scale — real-time messaging, event pipelines, and the brokers that keep them honest. I like systems that stay calm when everything is on fire."
+      "I build backend systems in Go — event pipelines, distributed services, and the brokers and data stores underneath them. I care most about data correctness and systems that stay calm when everything is on fire. I mentor engineers across teams and carry the pager for what we ship."
     ],
     "personal": "Off the clock I'm usually moving — running, a trail, a camera — carrying the same love of math and old questions up the mountain."
   },
   "projects": [
-    { "slug": "euler", "name": "Euler", "blurb": "A Euler graph generator for Go struct models.", "tags": ["Go"], "url": "https://github.com/mehditeymorian/euler", "featured": true },
+    { "slug": "euler", "name": "Euler", "blurb": "A Euler graph generator for Go struct models.", "tags": ["Go"], "url": "https://github.com/mehditeymorian/euler", "featured": false },
     { "slug": "etefagh", "name": "Etefagh", "blurb": "An event pub/sub service over NATS Streaming, with Redis-cached publish state and MongoDB storage.", "tags": ["Go", "NATS"], "url": "https://github.com/mehditeymorian/Etefagh", "featured": true },
     { "slug": "koi", "name": "KOI", "blurb": "A lightweight worker manager for orchestrating concurrent jobs in Go.", "tags": ["Go", "Concurrency"], "url": "https://github.com/mehditeymorian/koi", "featured": true },
     { "slug": "othello-ddqn", "name": "Othello · Double DQN", "blurb": "A reinforcement-learning agent for Othello, benchmarked against earlier Minimax work.", "tags": ["Python", "PyTorch"], "url": "https://github.com/mehditeymorian/othello-intelligent-agent", "featured": true },
     { "slug": "worksync", "name": "WorkSync", "blurb": "Synchronised scheduling across distributed workers, backed by MySQL.", "tags": ["Go", "Distributed"], "url": "https://github.com/mehditeymorian/worksync", "featured": false },
-    { "slug": "ratelimit", "name": "RateLimit", "blurb": "A sliding-window rate limiter implemented on Redis.", "tags": ["Go", "Redis"], "url": "https://github.com/mehditeymorian/ratelimit", "featured": false },
+    { "slug": "ratelimit", "name": "RateLimit", "blurb": "A distributed sliding-window rate limiter on Redis: atomic Lua evaluation across replicas, retry timing, Redis Cluster support.", "tags": ["Go", "Redis", "Lua"], "url": "https://github.com/mehditeymorian/ratelimit", "featured": true },
     { "slug": "webrtc-video-call", "name": "WebRTC Video Call", "blurb": "Group video calling over WebRTC with a minimal signalling backend.", "tags": ["Go", "WebRTC"], "url": "https://github.com/mehditeymorian/webrtc-video-call", "featured": false },
     { "slug": "othello-game", "name": "Othello · Genetic", "blurb": "Othello with an agent trained by evolutionary algorithms.", "tags": ["Kotlin", "Genetic Algorithms"], "url": "https://github.com/mehditeymorian/Othello-Game", "featured": false },
     { "slug": "jnotes", "name": "JNotes", "blurb": "A collection of machine-learning and data-science notebooks.", "tags": ["Python", "Jupyter"], "url": "https://github.com/mehditeymorian/JNotes", "featured": false },
@@ -30,18 +30,22 @@
     { "slug": "bake-matrix", "name": "Docker Bake + CI", "blurb": "A matrix build setup combining Docker Bake with GitLab CI.", "tags": ["Docker", "Gitlab CI"], "url": "https://github.com/mehditeymorian/bake-matrix", "featured": false }
   ],
   "stack": [
-    { "label": "backend", "items": ["Go", "Microservices", "Python"] },
-    { "label": "messaging", "items": ["EMQX", "NATS", "RabbitMQ"] },
-    { "label": "infra", "items": ["Kubernetes", "Docker", "Grafana", "Prometheus"] },
-    { "label": "data", "items": ["Redis", "Postgres", "Mysql"] }
+    { "label": "backend", "items": ["Go", "SQL", "REST APIs", "Event-driven architecture", "Concurrency", "Python"] },
+    { "label": "messaging", "items": ["Kafka", "NATS", "RabbitMQ", "EMQX"] },
+    { "label": "infra", "items": ["Kubernetes", "Helm", "Docker", "GitLab CI/CD", "OpenTelemetry", "Prometheus", "Grafana"] },
+    { "label": "data", "items": ["PostgreSQL", "Redis", "MySQL", "ClickHouse"] }
   ],
   "trajectory": [
-    { "title": "Software Engineer", "period": "2021 — now", "note": "Real-time messaging and infrastructure at large scale.", "current": true },
-    { "title": "Backend Developer", "period": "2021", "note": "Ecommerce microservices across multiple vendors." },
+    { "title": "Senior Software Engineer", "period": "2026 — now", "note": "Leads backend design and delivery for a high-traffic product.", "current": true },
+    { "title": "Software Engineer", "period": "2024 — 2026", "note": "Built a product backend from the ground up and ran it in production." },
+    { "title": "Graduate Researcher", "period": "2024 — 2026", "note": "Research on autoscaling for serverless cloud workloads." },
+    { "title": "Software Engineer", "period": "2022 — 2024", "note": "Backend services for a consumer product." },
+    { "title": "Junior Software Engineer", "period": "2021 — 2022", "note": "Real-time messaging infrastructure." },
+    { "title": "Backend Developer Intern", "period": "2021", "note": "Ecommerce microservices." },
     { "title": "Mobile Developer", "period": "2018 — 2021", "note": "Independent consumer apps — where the habit turned professional." }
   ],
   "education": [
-    { "school":  "Shahid Beheshti University", "degree": "m.Sc. Software - Cloud Computing", "period": "2023 - 2026"},
+    { "school": "Shahid Beheshti University", "degree": "M.Sc. Software Engineering", "period": "2023 — 2026" },
     { "school": "Shahid Beheshti University", "degree": "B.Sc. Computer Engineering", "period": "2018 — 2023" }
   ],
   "socials": [
